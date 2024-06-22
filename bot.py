@@ -9,7 +9,7 @@ import os
 load_dotenv()
 api_key = os.getenv('TELE_KEY')
 flag=False
-bot = telebot.TeleBot(TELE_KEY)
+bot = telebot.TeleBot(api_key)
 myuser={}
 headers = {'host': 'erp.psit.ac.in', 'Cookie': ''}
 base_url = f"https://103.120.30.61"
