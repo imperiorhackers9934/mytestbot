@@ -3,6 +3,11 @@ import re
 import telebot
 from telebot import types
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv('TELE_KEY')
 flag=False
 bot = telebot.TeleBot(TELE_KEY)
 myuser={}
