@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 from bs4 import BeautifulSoup
 flag=False
-bot = telebot.TeleBot(secrets.TELE_KEY)
+bot = telebot.TeleBot(TELE_KEY)
 myuser={}
 headers = {'host': 'erp.psit.ac.in', 'Cookie': ''}
 base_url = f"https://103.120.30.61"
